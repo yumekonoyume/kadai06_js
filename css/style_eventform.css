@@ -1,0 +1,138 @@
+body {
+    background-image: url('../img/event01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #e3e0cf;
+    font-family: "Zen Maru Gothic", Arial, sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 28px;
+    color: #2f4f4f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.stylish-header {
+    background-color: rgba(107, 142, 35, 0.8);
+    padding: 15px 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.modern-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e8f0e9;
+}
+
+section {
+    max-width: 800px;
+    margin: 10rem auto;
+    /* padding: 2rem,2rem,5rem,2rem; */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #263c05;
+}
+
+/* ヒーローセクションのスタイル */
+.hero {
+    background-image: linear-gradient(rgba(63, 81, 27, 0.7), rgba(107, 142, 35, 0.7)), url('path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    /* 背景全体に透明度を追加 */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* フッターのスタイル */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+
+.apply-button {
+    display: inline-block;
+    padding: 12px 60px;
+    background-color: #477648;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #45a049;
+}
